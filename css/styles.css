@@ -1,3 +1,4 @@
+/* =========== Common styles =========== */
 ul,
 ol {
     list-style-type: none;
@@ -15,6 +16,10 @@ img {
     display: block;
 }
 
+/* =========== /Common styles =========== */
+
+/* =========== Page Header styles =========== */
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -25,6 +30,137 @@ img {
     color: #2e2f42;
 }
 
-.text-raleway {
+.logo-raleway {
     color: #4d5ae5;
 }
+
+.menu-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.adress-info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf;
+}
+
+.adress-info:hover,
+.adress-info:focus {
+    color: #404bbf;
+}
+/* =========== /Hero Section styles =========== */
+
+/* =========== Business Section styles =========== */
+
+.main-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.order-service-btn {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background: #4d5ae5;
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+    background-color: #404bbf;
+    
+}
+/* =========== /Business Section styles =========== */
+
+/* =========== /Blog Section styles =========== */
+
+.blog-section {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.blog-section-info {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/* =========== /Blog Section styles =========== */
+
+/* =========== /Our Team Section styles =========== */
+
+
+/* =========== /Our Team Section styles =========== */
+
+.team-section {
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
+}
+
+.menu-team-img {
+width: 264px;
+height: 260px;
+}
+
+.menu-team-name {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+.menu-team-info {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+/* =========== /Footer Section styles =========== */
+
+/* =========== /Our Team Section styles =========== */
+
+.footer-page-info {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
+/* =========== /Our Team Section styles =========== */
