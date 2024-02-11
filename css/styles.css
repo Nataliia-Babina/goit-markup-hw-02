@@ -47,6 +47,9 @@ img {
     color: #2e2f42;
 }
 
+.page-adress {
+font-style: normal;
+}
 .adress-info {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -54,7 +57,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
+    
 }
 
 .menu-link:hover,
@@ -70,6 +73,10 @@ img {
 
 /* =========== Business Section styles =========== */
 
+.business {
+background-color: #2e2f42;
+}
+
 .main-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -78,7 +85,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    background-color: #2e2f42;
+    
 }
 
 .order-service-btn {
@@ -134,7 +141,9 @@ text-align: center;
 color: #2e2f42;
 
 }
-
+.menu-team {
+    background-color: #FFFFFF;
+}
 .menu-team-name {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
@@ -143,7 +152,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-background-color: #FFFFFF;
 }
 
 .menu-team-info {
@@ -154,7 +162,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
-background-color: #FFFFFF;
 }
 
 /* =========== /Our Team Section styles =========== */
@@ -194,6 +201,9 @@ color: #2e2f42;
 /* =========== /Portfolio Section styles =========== */
 
 /*=========== Footer Section styles===========*/
+.footer-page {
+background-color:#2e2f42;
+}
 
 .footer-page-info {
 font-family: "Roboto", sans-serif;
@@ -202,6 +212,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
-background: #2e2f42;
+}
+
+.logo-raleway-footer {
+    color: #f4f4fd;
 }
 /* =========== /Footer Section styles =========== */
