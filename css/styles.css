@@ -12,10 +12,6 @@ button {
     cursor: pointer;
 }
 
-img {
-    display: block;
-}
-
 /* =========== /Common styles =========== */
 
 /* =========== Page Header styles =========== */
@@ -141,7 +137,7 @@ text-align: center;
 color: #2e2f42;
 
 }
-.menu-team {
+.menu-team-item {
     background-color: #FFFFFF;
 }
 .menu-team-name {
