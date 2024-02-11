@@ -19,7 +19,11 @@ img {
 /* =========== /Common styles =========== */
 
 /* =========== Page Header styles =========== */
-
+.page-body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -27,11 +31,11 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .logo-raleway {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .menu-link {
@@ -50,6 +54,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 }
 
 .menu-link:hover,
@@ -73,9 +78,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    background: #2e2f42;
-    width: 1440px;
-    height: 600px;
+    background-color: #2e2f42;
 }
 
 .order-service-btn {
@@ -84,6 +87,8 @@ img {
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
 }
 
 .order-service-btn:hover,
@@ -115,7 +120,9 @@ color: #434455;
 /* =========== /Blog Section styles =========== */
 
 /* =========== Our Team Section styles =========== */
-
+.our-team-section {
+    background-color: #F4F4FD
+}
 .team-section {
 font-family: "Roboto", sans-serif;
 font-weight: 700;
@@ -125,11 +132,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
-}
 
-.menu-team-img {
-width: 264px;
-height: 260px;
 }
 
 .menu-team-name {
@@ -140,6 +143,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+background-color: #FFFFFF;
 }
 
 .menu-team-info {
@@ -150,6 +154,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+background-color: #FFFFFF;
 }
 
 /* =========== /Our Team Section styles =========== */
@@ -167,10 +172,6 @@ text-align: center;
 color: #2e2f42;
 }
 
-.portfolio-img {
-    width: 360px;
-    height: 300px;
-}
 
 .portfolio-service {
     font-family: "Roboto", sans-serif;
@@ -202,7 +203,5 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 background: #2e2f42;
-width: 1440px;
-height: 312px;
 }
 /* =========== /Footer Section styles =========== */
